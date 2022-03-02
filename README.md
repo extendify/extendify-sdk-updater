@@ -1,6 +1,7 @@
 # Extendify Updater Workflow
-
-To use, add this workflow to your project and manually run it from GitHub actions.
+This repo includes a workflow for keeping the Extendify library in sync by fetching the latest code from wordpress.org plugin's repository.
+## Regular usage
+To use, add this workflow to your project and manually run it from GitHub actions as needed.
 
 > ⚠️ If extendify isn't located in /extendify-sdk then you will need to update the workflow accordingly to match the directory you installed it into
 
@@ -14,3 +15,4 @@ if ( ! isset( $GLOBALS['extendify_sdk_partner'] ) ) {
     $GLOBALS['extendify_sdk_partner'] = 'Plugin Name';
 }
 ```
+> Update 'Plugin Name' with the name of your product.
