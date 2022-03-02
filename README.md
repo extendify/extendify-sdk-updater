@@ -10,7 +10,7 @@ If Extendify isn't yet installed, first add and run the workflow to create a new
 require_once plugin_dir_path( __FILE__ ) . 'extendify-sdk/loader.php'
 
 if ( ! isset( $GLOBALS['extendify_sdk_partner'] ) ) {
-    // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
-	$GLOBALS['extendify_sdk_partner'] = 'Plugin Name';
+ // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
+ $GLOBALS['extendify_sdk_partner'] = 'Plugin Name';
 }
 ```
