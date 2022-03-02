@@ -15,4 +15,4 @@ if ( ! isset( $GLOBALS['extendify_sdk_partner'] ) ) {
     $GLOBALS['extendify_sdk_partner'] = 'Plugin Name';
 }
 ```
-> Update 'Plugin Name' with the name of your product.
+> Update 'Plugin Name' with the name of your product
